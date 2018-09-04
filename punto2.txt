@@ -1,0 +1,22 @@
+package punto;
+import java.util.Random;
+import java.util.Scanner;
+import java.util.*;
+class punto {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+
+        double a ,s,c;
+         
+		System.out.println("ingrese un numero");	
+		a=sc.nextInt();
+		System.out.println("ingrese un numero");	
+		c=sc.nextInt();
+		
+		s=32+(9*c/5);
+		
+		System.out.println("los grados son: "+s);
+		}
+    }
+		

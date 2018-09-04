@@ -1,0 +1,45 @@
+package punto;
+import java.util.Random;
+import java.util.Scanner;
+import java.util.*;
+class punto {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+
+		double a,s,p,l,t,m;
+		
+	System.out.println("ingrese un numero ");
+		a=sc.nextDouble();
+		
+		System.out.println("ingrese un numero ");
+		s=sc.nextDouble();
+		
+		m=a/s;
+		
+	
+		
+		if(m==0) {
+			System.out.println("es error: "+m);
+			
+			p=a+s;
+			l=a*s;
+			t=a-s;
+			m=a/s;
+			
+			System.out.println("el resultado es: "+p);
+			System.out.println("el resultado es: "+l);
+			System.out.println("el resultado es: "+t);
+			System.out.println("el resultado es: "+m);
+		}if(s==0) {
+			System.out.println("es error division: "+s);	
+		
+
+			
+			
+		
+		
+		}
+    }
+		
+ } 
